@@ -65,9 +65,6 @@ export default function RootLayout({
                   <Link href="/umkm">Database UMKM</Link>
                 </li>
                 <li>
-                  <Link href="/berita">Berita</Link>
-                </li>
-                <li>
                   <Link href="/galeri">Galeri</Link>
                 </li>
               </ul>
