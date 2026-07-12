@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Fraunces, Public_Sans, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
@@ -43,13 +44,8 @@ export default function RootLayout({
           <div className="wrap footer-grid">
             <div>
               <div className="brand" style={{ marginBottom: "12px" }}>
-                <svg className="brand-mark" viewBox="0 0 40 40" fill="none">
-                  <circle cx="20" cy="20" r="19" fill="#39542f" />
-                  <path d="M20 8 L26 19 L20 30 L14 19 Z" fill="#d8a83a" />
-                </svg>
-                <span className="brand-text" style={{ color: "#fff" }}>
-                  Desa Sukoharjo
-                </span>
+                <Image src="/wonogiri.webp" alt="Wonogiri" width={40} height={80} className="brand-mark" />
+                <span className="brand-text text-[color:var(--card)]">Desa Sukoharjo</span>
               </div>
               <p style={{ color: "#b9bda3", fontSize: "14px", maxWidth: "320px" }}>
                 Website resmi Desa Sukoharjo, Kecamatan Tirtomoyo, Kabupaten Wonogiri — media informasi desa dan etalase digital UMKM warga.

@@ -301,7 +301,7 @@ p {
     right: 0;
     bottom: 0;
     flex-direction: column;
-    background: var(--parchment);
+    background-color: #f1eee0 !important; /* Solid parchment background matching navbar theme */
     padding: 14px 20px;
     gap: 6px;
     transform: translateY(-8px);

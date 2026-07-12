@@ -59,7 +59,11 @@ export default function Navbar() {
             )}
           </svg>
         </button>
-        <ul className={cn("nav-links", isOpen && "open")} id="navLinks">
+        <ul
+          className={cn("nav-links", isOpen && "open")}
+          id="navLinks"
+          style={isOpen ? { backgroundColor: "#f1eee0" } : undefined}
+        >
           {navLinks.map((link) => {
             const isActive = link.activeRule(pathname);
             return (
