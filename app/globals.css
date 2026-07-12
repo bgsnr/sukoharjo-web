@@ -58,9 +58,9 @@
   --clay-light: #b0623d;
   --padi: #d8a83a;
   --padi-light: #eec96e;
-  --parchment: #f1eee0;
-  --parchment-2: #e9e4d0;
-  --card: #faf8ef;
+  --parchment: #ffffff;
+  --parchment-2: #ffffff;
+  --card: #ffffff;
   --ink: #23291c;
   --ink-soft: #5b6350;
   --line: #d8d2ba;
@@ -109,9 +109,9 @@
   --clay-light: #b0623d;
   --padi: #d8a83a;
   --padi-light: #eec96e;
-  --parchment: #f1eee0;
-  --parchment-2: #e9e4d0;
-  --card: #faf8ef;
+  --parchment: #ffffff;
+  --parchment-2: #ffffff;
+  --card: #ffffff;
   --ink: #23291c;
   --ink-soft: #5b6350;
   --line: #d8d2ba;
@@ -185,7 +185,7 @@
   font-weight: 500;
 }
 .eyebrow.on-dark {
-  color: var(--padi-light);
+  color: #fff;
 }
 
 h1, h2, h3 {
@@ -219,7 +219,7 @@ p {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(241, 238, 224, .86);
+  background: rgba(255, 255, 255, .92);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);
 }
@@ -272,7 +272,7 @@ p {
   transition: background .15s, color .15s;
 }
 .nav-links a:hover {
-  background: var(--parchment-2);
+  background: #f5f5f5;
   color: var(--ink);
 }
 .nav-links a.active {
@@ -291,7 +291,7 @@ p {
   cursor: pointer;
 }
 .nav-toggle:hover {
-  background: var(--parchment-2);
+  background: #f5f5f5;
 }
 @media (max-width: 880px) {
   .nav-links {
@@ -301,7 +301,7 @@ p {
     right: 0;
     bottom: 0;
     flex-direction: column;
-    background-color: #f1eee0 !important; /* Solid parchment background matching navbar theme */
+    background: #fff;
     padding: 14px 20px;
     gap: 6px;
     transform: translateY(-8px);
@@ -609,11 +609,11 @@ section.block.tight {
   z-index: 2;
 }
 .page-header h1 {
-  color: #fbf7ea;
+  color: #fff;
   font-size: clamp(2rem, 4vw, 3rem);
 }
 .page-header p {
-  color: #d7d9c8;
+  color: #fff;
   max-width: 520px;
   margin-top: 12px;
 }
@@ -707,7 +707,7 @@ section.block.tight {
   margin-top: 2px;
 }
 .org-node.top small {
-  color: #cfe0c1;
+  color: #fff;
 }
 
 .pop-bar-row {
@@ -725,7 +725,7 @@ section.block.tight {
 .pop-bar-track {
   flex: 1;
   height: 12px;
-  background: var(--parchment-2);
+  background: #fff;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -819,7 +819,7 @@ section.block.tight {
   transition: all 0.15s ease;
 }
 .chip:hover {
-  background: var(--parchment-2);
+  background: #f5f5f5;
   color: var(--ink);
 }
 .chip.active {

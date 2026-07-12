@@ -1,9 +1,8 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { umkmData, beritaData, galeriData, potensiData, STAT } from "@/lib/data";
+import { umkmData, galeriData, potensiData, STAT } from "@/lib/data";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 
 export const metadata: Metadata = {
   title: "Selamat Datang di Desa Sukoharjo — Tirtomoyo, Wonogiri",
@@ -157,32 +156,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* INFORMASI TERBARU */}
-      <section className="block on-parchment2 tight">
-        <div className="wrap">
-          <div className="section-head">
-            <p className="eyebrow">Informasi Terbaru</p>
-            <h2 style={{ marginTop: "10px" }}>Kabar dari Balai Desa</h2>
-          </div>
-          <div className="grid cols-3" style={{ marginTop: "24px" }}>
-            {beritaData.slice(0, 3).map((b, idx) => (
-              <Card key={idx} className="card info-card shadow-none border border-[color:var(--line)]">
-                <Badge className={`tag ${b.cls} border-none w-fit inline-flex justify-center`} variant="default" style={{ height: "auto" }}>
-                  {b.tag}
-                </Badge>
-                <h3 className="font-heading" style={{ marginTop: "14px" }}>{b.title}</h3>
-                <p style={{ marginTop: "6px" }}>{b.desc}</p>
-                <div className="date">{b.date}</div>
-              </Card>
-            ))}
-          </div>
-          <div style={{ marginTop: "32px", textAlign: "center" }}>
-            <Button asChild className="btn btn-dark border-none">
-              <Link href="/berita">Lihat Semua Berita</Link>
-            </Button>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

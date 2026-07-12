@@ -12,7 +12,6 @@ export default function Navbar() {
   const navLinks = [
     { name: "Beranda", href: "/", activeRule: (path: string) => path === "/" },
     { name: "Profil Desa", href: "/profil", activeRule: (path: string) => path.startsWith("/profil") },
-    { name: "Berita", href: "/berita", activeRule: (path: string) => path.startsWith("/berita") },
     { name: "Database UMKM", href: "/umkm", activeRule: (path: string) => path.startsWith("/umkm") },
     { name: "Galeri", href: "/galeri", activeRule: (path: string) => path.startsWith("/galeri") },
   ];
