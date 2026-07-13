@@ -4,8 +4,8 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
 export const metadata: Metadata = {
-  title: "Berita & Pengumuman — Desa Sukoharjo",
-  description: "Kegiatan, agenda, dan pengumuman resmi dari Pemerintah Desa Sukoharjo, Kecamatan Tirtomoyo, Wonogiri.",
+  title: "Berita Desa Sukoharjo",
+  description: "Kegiatan, agenda, dan pengumuman resmi dari Pemerintah Desa Sukoharjo, Kecamatan Tirtomoyo, Kabupaten Wonogiri.",
 };
 
 export default function BeritaPage() {

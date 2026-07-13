@@ -47,11 +47,11 @@ export default function RootLayout({
                   <circle cx="20" cy="20" r="19" fill="#39542f" />
                   <path d="M20 8 L26 19 L20 30 L14 19 Z" fill="#d8a83a" />
                 </svg>
-                <span className="brand-text" style={{ color: "#fff" }}>
+                <span className="brand-text" style={{ color: "#fcfcf8" }}>
                   Desa Sukoharjo
                 </span>
               </div>
-              <p style={{ color: "#b9bda3", fontSize: "14px", maxWidth: "320px" }}>
+              <p style={{ color: "#dfe3d6", fontSize: "14px", maxWidth: "320px" }}>
                 Website resmi Desa Sukoharjo, Kecamatan Tirtomoyo, Kabupaten Wonogiri — media informasi desa dan etalase digital UMKM warga.
               </p>
             </div>
@@ -68,6 +68,9 @@ export default function RootLayout({
                   <Link href="/berita">Berita</Link>
                 </li>
                 <li>
+                  <Link href="/potensi">Potensi Desa</Link>
+                </li>
+                <li>
                   <Link href="/galeri">Galeri</Link>
                 </li>
               </ul>
@@ -75,15 +78,15 @@ export default function RootLayout({
             <div>
               <h4>Kantor Desa</h4>
               <ul>
-                <li>Jl. Raya Tirtomoyo–Baturetno KM 5</li>
+                <li>23RP+578, Sukorejo, Sukoharjo</li>
                 <li>Kec. Tirtomoyo, Kab. Wonogiri</li>
-                <li>(0273) 741-xxx</li>
+                <li>Jawa Tengah 57672</li>
               </ul>
             </div>
           </div>
           <div className="wrap foot-bottom">
-            <span>© 2026 Pemerintah Desa Sukoharjo. Prototipe tampilan.</span>
-            <span>Dibangun untuk mendukung digitalisasi desa</span>
+            <span>© 2026 Pemerintah Desa Sukoharjo.</span>
+            <span>KKN Tim II Universitas Diponegoro</span>
           </div>
         </footer>
       </body>

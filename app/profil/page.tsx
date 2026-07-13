@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Profil Desa Sukoharjo — Tirtomoyo, Wonogiri",
+  title: "Profil Desa Sukoharjo",
   description: "Sejarah, visi-misi, struktur pemerintahan, data kependudukan, dan kontak kantor Desa Sukoharjo.",
 };
 
@@ -33,46 +33,44 @@ export default function ProfilPage() {
           <div>
             <p className="eyebrow">Sejarah Desa</p>
             <h2 style={{ marginTop: "10px", marginBottom: "24px" }}>
-              Dari padukuhan tani menjadi desa mandiri
+              Dari Desa Bonagung menjadi Desa Sukoharjo
             </h2>
             <div className="timeline">
               <div>
-                <div className="yr">Sebelum 1945</div>
+                <div className="yr">Pada masa Pemerintahan Belanda</div>
                 <p>
-                  Kawasan Sukoharjo mulanya berupa padukuhan tani di lereng perbukitan Tirtomoyo, dihuni beberapa keluarga yang membuka lahan sawah berundak.
+                  nama Sukoharjo belum ada, wilayah ini merupakan bagian dari Desa Bonagung yang membentang dari Tirtomoyo sampai Baturetno. Pada waktu itu ada kesenian Srandil, banyak orang yang bersenang-senang dan beramai-ramai yang kemudian Pemerintah Belanda memberi nama Desa Sukoharjo.
                 </p>
               </div>
               <div>
-                <div className="yr">1946–1970</div>
+                <div className="yr">1941</div>
                 <p>
-                  Padukuhan berkembang menjadi desa definitif, dengan empat dusun terbentuk mengikuti aliran sungai kecil dan jalur ladang.
+                  Kedua desa tersebut akhirnya digabung menjadi satu desa dengan nama Desa Sukoharjo, yang berarti desa yang makmur dan sejahtera. Nama ini diambil dari kata "suko" (makmur) dan "harjo" (sejahtera).
                 </p>
               </div>
               <div>
-                <div className="yr">1980-an</div>
+                <div className="yr">1955-Sekarang</div>
                 <p>
-                  Mulai tumbuh usaha rumahan pengolahan singkong dan jamu gendong sebagai penopang ekonomi warga di musim paceklik sawah.
+                  Setelah masa kepemimpinan Siswo Sutirto, jabatan Kepala Desa Sukoharjo secara berturut-turut dipegang oleh Sastro Darwoso (1955–2002), Sunarto (2002–2007 dan 2007–2012), Sartono (2012–2019), kemudian dijabat sementara oleh Prihastanto, SE., MM. sebagai penjabat kepala desa, hingga pada Pilkades 2019 Sunarto kembali terpilih dan menjabat sebagai Kepala Desa Sukoharjo sampai sekarang.
                 </p>
               </div>
               <div>
-                <div className="yr">2000-an – kini</div>
-                <p>
-                  Diversifikasi usaha berkembang: batik tulis, kerajinan bambu, hingga peternakan kambing etawa, menjadikan UMKM tulang punggung ekonomi desa.
-                </p>
               </div>
             </div>
           </div>
           <Card className="vm-card border-none shadow-none text-white">
             <h3 className="text-white">Visi</h3>
             <p className="text-[#e7e6d6]">
-              Mewujudkan Desa Sukoharjo yang mandiri, sejahtera, dan berdaya saing melalui optimalisasi potensi pertanian dan UMKM berbasis kearifan lokal.
+              "Nyawiji sesarengan mbangun Desa Sukoharjo menjadi maju, inovatif, dan bermartabat."
             </p>
             <h3 className="text-white" style={{ marginTop: "20px" }}>Misi</h3>
             <ul className="text-[#e7e6d6]">
-              <li>Meningkatkan tata kelola pemerintahan desa yang transparan dan partisipatif.</li>
-              <li>Mendorong digitalisasi promosi produk UMKM warga.</li>
-              <li>Memperkuat sektor pertanian dan peternakan berkelanjutan.</li>
-              <li>Meningkatkan kualitas infrastruktur dan pelayanan publik desa.</li>
+              <li>Memperkuat tata kelola pemerintah yang bersih, demokratis, dan transparan, meliputi manajemen keuangan dan manajemen pelayanan pada masyarakat.</li>
+              <li>Pemerataan pembangunan yang berkeadilan.</li>
+              <li>Meningkatkan sumber daya manusia yang unggul dan berkualitas.</li>
+              <li>Mendorong kemandirian ekonomi kerakyatan yang berbasis pada sektor pertanian, peternakan, dan industri rumah tangga.</li>
+              <li>Meningkatkan inovasi desa dengan pemberdayaan masyarakat.</li>
+              <li>Meningkatkan kualitas kehidupan beragama, serta melestarikan adat istiadat dan budaya pada masyarakat.</li>
             </ul>
           </Card>
         </div>
@@ -90,63 +88,59 @@ export default function ProfilPage() {
           <div className="org-chart">
             <div className="org-node top">
               Kepala Desa
-              <small>Bpk. Sutrisno, S.Sos.</small>
+              <small>Sunarto.</small>
             </div>
             <div className="org-node">
               Sekretaris Desa
-              <small>Ibu Wahyu Ningsih</small>
+              <small>Eri Suryani</small>
             </div>
             <div className="org-row">
               <div className="org-node">
                 Kaur Keuangan
-                <small>Staf Keuangan</small>
+                <small>Ade Nur Pratama</small>
+              </div>
+              <div className="org-node">
+                Kaur Tata Usaha & Umum
+                <small>Indra Suryawati</small>
               </div>
               <div className="org-node">
                 Kaur Perencanaan
-                <small>Staf Perencanaan</small>
-              </div>
-              <div className="org-node">
-                Kaur Tata Usaha
-                <small>Staf Umum & TU</small>
+                <small>Siti Rahmawati</small>
               </div>
             </div>
             <div className="org-row">
               <div className="org-node">
                 Kasi Pemerintahan
-                <small>Staf Pemerintahan</small>
+                <small>Sisca Cahyani</small>
               </div>
               <div className="org-node">
                 Kasi Kesejahteraan
-                <small>Staf Kesejahteraan</small>
+                <small>Unik Wulandari</small>
               </div>
               <div className="org-node">
                 Kasi Pelayanan
-                <small>Staf Pelayanan</small>
+                <small>Susilo</small>
               </div>
             </div>
             <div className="org-row">
               <div className="org-node">
-                Kadus Sukorejo
-                <small>Kepala Dusun</small>
+                Kadus Blaraksari, Sukoharjo, dan Jati
+                <small>dwijoko Widyanto</small>
               </div>
               <div className="org-node">
-                Kadus Ngrancah
-                <small>Kepala Dusun</small>
+                Kadus Tulakan dan Pule
+                <small>Surahni</small>
               </div>
               <div className="org-node">
-                Kadus Karangnongko
-                <small>Kepala Dusun</small>
-              </div>
-              <div className="org-node">
-                Kadus Tanggulangin
-                <small>Kepala Dusun</small>
+                Kadus Ngandong
+                <small>Septyan Dwihanto</small>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* DATA KEPENDUDUKAN & RINGKASAN POTENSI */}
+      {/* DATA KEPENDUDUKAN */}
       <section className="block">
         <div className="wrap two-col">
           <div>
@@ -165,24 +159,6 @@ export default function ProfilPage() {
                   <div className="pop-bar-num">{d.val} jiwa</div>
                 </div>
               ))}
-            </div>
-          </div>
-          <div>
-            <p className="eyebrow">Potensi Desa (ringkas)</p>
-            <h2 style={{ margin: "10px 0 24px" }}>Tiga sektor utama</h2>
-            <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
-              <Card className="card border border-[color:var(--line)] shadow-none" style={{ padding: "20px" }}>
-                <h3 className="font-heading">Pertanian &amp; Perkebunan</h3>
-                <p>Padi ladang, singkong, and mete sebagai komoditas utama lahan kering.</p>
-              </Card>
-              <Card className="card border border-[color:var(--line)] shadow-none" style={{ padding: "20px" }}>
-                <h3 className="font-heading">UMKM Olahan &amp; Kerajinan</h3>
-                <p>Tiwul, keripik, batik tulis, dan anyaman bambu/pandan.</p>
-              </Card>
-              <Card className="card border border-[color:var(--line)] shadow-none" style={{ padding: "20px" }}>
-                <h3 className="font-heading">Peternakan</h3>
-                <p>Kambing etawa dan unggas sebagai usaha sampingan rumah tangga.</p>
-              </Card>
             </div>
           </div>
         </div>
@@ -217,10 +193,6 @@ export default function ProfilPage() {
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.35 1.85.59 2.81.72A2 2 0 0 1 22 16.92z" />
                   </svg>
                 </div>
-                <div>
-                  <h3>Telepon</h3>
-                  <p>(0273) 741-xxx</p>
-                </div>
               </div>
               <div className="contact-item">
                 <div className="ic">
@@ -231,7 +203,7 @@ export default function ProfilPage() {
                 </div>
                 <div>
                   <h3>Email</h3>
-                  <p>desasukoharjo.tirtomoyo@wonogirikab.go.id</p>
+                  <p>desasukoharjotio11@gmail.go.id</p>
                 </div>
               </div>
               <div className="contact-item">

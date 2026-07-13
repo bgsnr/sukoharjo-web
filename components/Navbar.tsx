@@ -13,7 +13,8 @@ export default function Navbar() {
     { name: "Beranda", href: "/", activeRule: (path: string) => path === "/" },
     { name: "Profil Desa", href: "/profil", activeRule: (path: string) => path.startsWith("/profil") },
     { name: "Berita", href: "/berita", activeRule: (path: string) => path.startsWith("/berita") },
-    { name: "Database UMKM", href: "/umkm", activeRule: (path: string) => path.startsWith("/umkm") },
+    { name: "UMKM", href: "/umkm", activeRule: (path: string) => path.startsWith("/umkm") },
+    { name: "Potensi Desa", href: "/potensi", activeRule: (path: string) => path.startsWith("/potensi") },
     { name: "Galeri", href: "/galeri", activeRule: (path: string) => path.startsWith("/galeri") },
   ];
 
