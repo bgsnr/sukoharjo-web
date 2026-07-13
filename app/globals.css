@@ -241,6 +241,7 @@ p {
   width: 38px;
   height: 38px;
   flex: none;
+  object-fit: contain;
 }
 .brand-text {
   font-family: var(--font-display);
