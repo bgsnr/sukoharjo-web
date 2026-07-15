@@ -4,6 +4,7 @@ import { Fraunces, Public_Sans, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
+import WonogiriLogo from "@/components/WonogiriLogo";
 
 const fraunces = Fraunces({
   subsets: ["latin"],
@@ -47,7 +48,7 @@ export default function RootLayout({
                 <Image src="/wonogiri.webp" alt="Wonogiri" width={40} height={80} className="brand-mark" />
                 <span className="brand-text text-[color:var(--card)]">Desa Sukoharjo</span>
               </div>
-              <p style={{ color: "#b9bda3", fontSize: "14px", maxWidth: "320px" }}>
+              <p style={{ color: "#dfe3d6", fontSize: "14px", maxWidth: "320px" }}>
                 Website resmi Desa Sukoharjo, Kecamatan Tirtomoyo, Kabupaten Wonogiri — media informasi desa dan etalase digital UMKM warga.
               </p>
             </div>
@@ -68,15 +69,16 @@ export default function RootLayout({
             <div>
               <h4>Kantor Desa</h4>
               <ul>
-                <li>Jl. Raya Tirtomoyo–Baturetno KM 5</li>
+                <li>23RP+578, Sukorejo, Sukoharjo</li>
                 <li>Kec. Tirtomoyo, Kab. Wonogiri</li>
-                <li>(0273) 741-xxx</li>
+                <li>Jawa Tengah 57672</li>
+                <li>Telp: (0821) 38002221</li>
               </ul>
             </div>
           </div>
           <div className="wrap foot-bottom">
-            <span>© 2026 Pemerintah Desa Sukoharjo. Prototipe tampilan.</span>
-            <span>Dibangun untuk mendukung digitalisasi desa</span>
+            <span>© 2026 Pemerintah Desa Sukoharjo.</span>
+            <span>KKN Tim II Universitas Diponegoro</span>
           </div>
         </footer>
       </body>

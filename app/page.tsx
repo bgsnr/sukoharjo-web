@@ -28,7 +28,7 @@ export default function Home() {
             Sukoharjo, desa yang tumbuh dari <em>sawah, karya, dan usaha warganya.</em>
           </h1>
           <p className="lead">
-            Terletak di lereng Tirtomoyo, Wonogiri — Sukoharjo menghubungkan cerita desa dengan etalase digital produk UMKM warganya, dari tiwul hingga batik tulis.
+            Terletak di lereng Tirtomoyo, Wonogiri — Sukoharjo menghubungkan cerita desa, potensi usaha, dan peluang wisata alam perbukitan. Website ini menjadi pintu informasi bagi warga, investor, dan pendamping desa.
           </p>
           <div className="hero-cta">
             <Button asChild className="btn btn-primary border-none">
@@ -42,7 +42,7 @@ export default function Home() {
       </div>
       <div className="terrace-divider" aria-hidden="true">
         <svg viewBox="0 0 1200 60" preserveAspectRatio="none">
-          <polygon points="0,60 0,30 300,55 600,20 900,50 1200,10 1200,60" fill="#f1eee0" />
+          <polygon points="0,60 0,30 300,55 600,20 900,50 1200,10 1200,60" fill="#fbfaf5" />
         </svg>
       </div>
 
@@ -60,10 +60,6 @@ export default function Home() {
           <div className="num">{STAT.umkm}+</div>
           <div className="lbl">UMKM Terdaftar</div>
         </div>
-        <div className="stat">
-          <div className="num">{STAT.categories}</div>
-          <div className="lbl">Kategori Usaha</div>
-        </div>
       </div>
 
       {/* PROFIL SINGKAT */}
@@ -72,11 +68,10 @@ export default function Home() {
           <div>
             <p className="eyebrow">Profil Singkat</p>
             <h2 style={{ marginTop: "10px" }}>Desa berbukit di jalur Tirtomoyo–Baturetno</h2>
-            <p style={{ marginTop: "16px" }}>
-              Sukoharjo berada di kawasan perbukitan selatan Wonogiri, dikelilingi sawah berundak dan kebun mete. Sebagian besar warga menggantungkan hidup dari pertanian lahan kering, peternakan, dan usaha rumahan yang diwariskan turun-temurun — mulai dari olahan singkong, jamu gendong, hingga anyaman bambu.
+            <p style={{ marginTop: "16px" }}>Desa Sukoharjo merupakan salah satu desa yang berada di Kecamatan Tirtomoyo, Kabupaten Wonogiri, Provinsi Jawa Tengah. Desa ini memiliki luas wilayah sekitar 837,77 hektare, yang didominasi oleh lahan kering seluas 637,31 hektare dan lahan sawah seluas 101,29 hektare. Secara administratif, Desa Sukoharjo berbatasan dengan Desa Girirejo (Kecamatan Jatiroto) di sebelah utara, Desa Hargosari (Kecamatan Karangtengah) di sebelah selatan, Desa Hargorejo (Kecamatan Nawangan) di sebelah timur, serta Desa Wiroko (Kecamatan Nguntoronadi) di sebelah barat.
             </p>
             <p style={{ marginTop: "12px" }}>
-              Melalui website ini, pemerintah desa ingin menghadirkan satu pintu informasi: profil desa yang transparan, dan etalase digital bagi pelaku UMKM agar produk mereka lebih mudah ditemukan.
+              Melalui website ini, pemerintah desa ingin menghadirkan satu pintu informasi: profil desa yang transparan, dan etalase digital UMKM sekaligus berita terbaru yang ada di Desa Sukoharjo.
             </p>
           </div>
           <div className="umkm-mini" style={{ flexDirection: "column", gap: "14px" }}>
@@ -101,12 +96,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* POTENSI DESA (RINGKAS) */}
+      {/* POTENSI DESA */}
       <section className="block on-parchment2 tight">
         <div className="wrap">
           <div className="section-head" style={{ maxWidth: "100%" }}>
             <p className="eyebrow">Potensi Desa</p>
-            <h2 style={{ marginTop: "10px" }}>Kekayaan alam dan usaha yang bisa dikembangkan</h2>
+            <h2 style={{ marginTop: "10px" }}>Kekayaan Sumber Daya dan Potensinya</h2>
           </div>
           <div className="grid cols-4" style={{ marginTop: "24px" }}>
             {potensiData.slice(0, 4).map((p) => (
@@ -135,7 +130,7 @@ export default function Home() {
         <div className="wrap">
           <div className="section-head">
             <p className="eyebrow">Dokumentasi</p>
-            <h2 style={{ marginTop: "10px" }}>Momen dari Desa Sukoharjo</h2>
+            <h2 style={{ marginTop: "10px" }}>Momen di Desa Sukoharjo</h2>
           </div>
           <div className="gal-grid" style={{ marginTop: "24px" }}>
             {galeriData.slice(0, 4).map((g, idx) => (

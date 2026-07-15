@@ -201,24 +201,29 @@ export const galeriData: GaleriItem[] = [
 ]
 
 export const potensiData: Potensi[] = [
-  { num: "01", title: "Pertanian Lahan Kering", desc: "Padi gogo, jagung, dan singkong ditanam memanfaatkan pola tadah hujan di lahan berundak, dengan hasil singkong menjadi bahan baku utama UMKM olahan pangan desa." },
-  { num: "02", title: "Perkebunan Mete", desc: "Pohon mete tumbuh di lereng-lereng bukit, hasilnya sebagian dijual mentah dan sebagian diolah menjadi kacang mete kemasan oleh kelompok tani." },
-  { num: "03", title: "Kerajinan Bambu & Pandan", desc: "Rumpun bambu dan pandan yang melimpah dimanfaatkan menjadi besek, tampah, tikar, hingga tas anyaman bernilai jual." },
-  { num: "04", title: "Batik Tulis Lokal", desc: "Motif parang lereng khas Sukoharjo diproduksi terbatas oleh perajin rumahan, berpotensi menjadi produk unggulan bernilai ekonomi tinggi." },
-  { num: "05", title: "Peternakan Kambing Etawa", desc: "Kelompok ternak mengembangkan susu dan bibit kambing etawa sebagai sumber pendapatan tambahan warga." },
-  { num: "06", title: "Wisata Alam Perbukitan", desc: "Pemandangan sawah berundak dan udara sejuk berpotensi dikembangkan menjadi jalur wisata trekking dan agrowisata." }
+  { num: "01", title: "Potensi Sumber Daya Alam", desc: "Desa Sukoharjo memiliki potensi sumber daya alam di bidang pertanian, perkebunan karet, dan hortikultura. Sebagian besar masyarakat bermata pencaharian sebagai petani sehingga lahan pertanian dimanfaatkan untuk menunjang ketahanan pangan masyarakat. Selain itu, perkebunan karet dan hortikultura menjadi sumber tambahan penghasilan warga. Desa ini juga memiliki potensi perikanan berupa wilayah tangkapan ikan di lahan sawah saat musim penghujan serta aliran sungai." },
+  { num: "02", title: "Potensi Sumber Daya Manusia", desc: "Desa Sukoharjo memiliki sumber daya manusia yang cukup baik sebagai modal pembangunan desa. Jumlah penduduk dan tenaga kerja yang cukup besar didukung oleh tingkat pendidikan yang rata-rata mencapai SLTA/sederajat. Mayoritas angkatan kerja berprofesi sebagai petani, pedagang, pekebun, dan pekerjaan lainnya." },
+  { num: "03", title: "Potensi Sumber Daya Pembangunan", desc: "Pembangunan desa diarahkan untuk meningkatkan perekonomian masyarakat dan pendapatan asli desa melalui penyediaan infrastruktur yang memadai. Potensi pembangunan meliputi pembangunan jalan pertanian, khususnya di wilayah RT 01/RW 09, yang menjadi kawasan pertanian terbesar sekaligus akses menuju desa tetangga. Selain itu, terdapat potensi pengembangan BUMDes untuk meningkatkan Pendapatan Asli Desa (PAD)." },
+  { num: "04", title: "Potensi Sumber Daya Sosial Budaya", desc: "Potensi sosial budaya menjadi modal penting dalam pembangunan desa karena mendukung peningkatan kualitas sumber daya manusia dan produktivitas masyarakat. Kualitas SDM tercermin dari tingkat pendidikan dan derajat kesehatan masyarakat." },
+  { num: "05", title: "Potensi Kelembagaan", desc: "Desa Sukoharjo memiliki berbagai lembaga desa yang berperan sebagai wadah pelaksanaan tugas dan fungsi pemerintahan desa serta mendukung tercapainya tujuan pembangunan desa." }
 ]
 
 export const popData: PopData[] = [
-  { label: "Dusun Sukorejo", val: 512 },
-  { label: "Dusun Karangnongko", val: 450 },
-  { label: "Dusun Ngrancah", val: 380 },
-  { label: "Dusun Tanggulangin", val: 290 }
+  { label: "Dusun Blaraksari", val: 168 },
+  { label: "Dusun Sukoharjo", val: 351 },
+  { label: "Dusun Tulakan", val: 410 },
+  { label: "Dusun Jati", val: 210 },
+  { label: "Dusun Pule", val: 364 },
+  { label: "Dusun Dadapan", val: 901 },
+  { label: "Dusun Bonagung", val: 279 },
+  { label: "Dusun Dalan Gede", val: 358 },
+  { label: "Dusun Sendangsari", val: 420 },
+  { label: "Dusun Ngroto", val: 739 },
+  { label: "Dusun Ngandong", val: 717 }
 ]
 
 export const STAT = {
-  dusun: 4,
-  population: "1.632",
-  umkm: 27,
-  categories: 6
+  dusun: 11,
+  population: "4.915",
+  umkm: 54
 }
