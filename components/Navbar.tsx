@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 import WonogiriLogo from "@/components/WonogiriLogo";
@@ -13,9 +14,7 @@ export default function Navbar() {
   const navLinks = [
     { name: "Beranda", href: "/", activeRule: (path: string) => path === "/" },
     { name: "Profil Desa", href: "/profil", activeRule: (path: string) => path.startsWith("/profil") },
-    { name: "Berita", href: "/berita", activeRule: (path: string) => path.startsWith("/berita") },
-    { name: "UMKM", href: "/umkm", activeRule: (path: string) => path.startsWith("/umkm") },
-    { name: "Potensi Desa", href: "/potensi", activeRule: (path: string) => path.startsWith("/potensi") },
+    { name: "Database UMKM", href: "/umkm", activeRule: (path: string) => path.startsWith("/umkm") },
     { name: "Galeri", href: "/galeri", activeRule: (path: string) => path.startsWith("/galeri") },
   ];
 
@@ -23,7 +22,7 @@ export default function Navbar() {
     <div className="nav">
       <div className="nav-inner">
         <Link href="/" className="brand">
-          <WonogiriLogo className="brand-mark" />
+          <Image src="/wonogiri.webp" alt="Wonogiri" width={40} height={80} className="brand-mark" />
           <span className="brand-text">
             Desa Sukoharjo
             <span>Kec. Tirtomoyo · Kab. Wonogiri</span>
@@ -57,7 +56,11 @@ export default function Navbar() {
             )}
           </svg>
         </button>
-        <ul className={cn("nav-links", isOpen && "open")} id="navLinks">
+        <ul
+          className={cn("nav-links", isOpen && "open")}
+          id="navLinks"
+          style={isOpen ? { backgroundColor: "#f1eee0" } : undefined}
+        >
           {navLinks.map((link) => {
             const isActive = link.activeRule(pathname);
             return (

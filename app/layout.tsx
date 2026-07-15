@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Fraunces, Public_Sans, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
@@ -44,10 +45,8 @@ export default function RootLayout({
           <div className="wrap footer-grid">
             <div>
               <div className="brand" style={{ marginBottom: "12px" }}>
-                <WonogiriLogo className="brand-mark" />
-                <span className="brand-text" style={{ color: "#fcfcf8" }}>
-                  Desa Sukoharjo
-                </span>
+                <Image src="/wonogiri.webp" alt="Wonogiri" width={40} height={80} className="brand-mark" />
+                <span className="brand-text text-[color:var(--card)]">Desa Sukoharjo</span>
               </div>
               <p style={{ color: "#dfe3d6", fontSize: "14px", maxWidth: "320px" }}>
                 Website resmi Desa Sukoharjo, Kecamatan Tirtomoyo, Kabupaten Wonogiri — media informasi desa dan etalase digital UMKM warga.
@@ -61,12 +60,6 @@ export default function RootLayout({
                 </li>
                 <li>
                   <Link href="/umkm">Database UMKM</Link>
-                </li>
-                <li>
-                  <Link href="/berita">Berita</Link>
-                </li>
-                <li>
-                  <Link href="/potensi">Potensi Desa</Link>
                 </li>
                 <li>
                   <Link href="/galeri">Galeri</Link>
